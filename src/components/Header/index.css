@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.header-container {
+  background-color: #cbd5e1;
+  width: 90%;
+  text-align: center;
+  margin-top: 50px;
+}
+.header-heading {
+  color: #475569;
+  font-size: 25px;
+}
+@media screen and (min-width: 768px) {
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 12vh;
+  }
+  .header-heading {
+    color: #475569;
+    font-size: 25px;
+  }
+}
